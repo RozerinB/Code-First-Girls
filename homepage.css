@@ -1,19 +1,49 @@
 html {
     background: #FAF7F2;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
     font-weight: 400;
   }
-  
+ 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 900px;
+	max-width: 100%;
+	padding: 0px;
+  margin: 0 auto;
+}
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+}
+
 .navbar {
     overflow: hidden;
-    background-color:white;
   }
   
   .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 28px;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -26,7 +56,7 @@ html {
   }
   
   .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 28px;  
     border: none;
     outline: none;
     color: black;

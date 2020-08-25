@@ -7,36 +7,48 @@
   <link rel="stylesheet" href="homepage.css" type="text/css" media="screen"/>
   <script src="jquery-jvectormap-2.0.5.min.js"></script>
   <script src="jquery-jvectormap-world-mill.dev.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header id="header" class="header-main">
-
+<header class="main-header">
+	<div class="container">
+		<h1 class="mh-logo">
+			<img src="logo.png" width="100" height="95" >
+		</h1>
     <h1> World Food Blog </h1>
-    <!-- Navigation (Top) -->
-    <div class="navbar">
-      <a href="index.html">HOME</a>
-      <a href="">ABOUT US</a>
-    <div class ="dropdown">
-      <button class="dropbtn"> COUNTRIES
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="turkey.html">Turkey</a>
-        <a href="Spain Final.html">Spain</a>
-        <a href="IranProject.html">Iran</a>
-        <a href="">Algeria</a>
-    </div>
-    </header>
 
+		<nav class="main-nav">
+			<ul class="navbar">
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li>
+					<a href="">ABOUT US</a>
+				</li>
+				<li>
+					 <div class ="dropdown">
+            <button class="dropbtn"> COUNTRIES
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="turkey.html">Turkey</a>
+              <a href="Spain Final.html">Spain</a>
+              <a href="IranProject.html">Iran</a>
+              <a href="">Algeria</a>
+          </div>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
 
-    <center>  
     <div class="jvectormap-container" style="background-color:(98,97,95);"> </div>
     <div id="world-map-markers" style="width:100%;height:100%;position: absolute;"></div>
     </div>
     <div id="markerSelectedtitle" style="position:relative; top:160px; height: 10px;"></div>
     <div id="markerSelected" style="position:relative; top:80px; height: 95px;"></div>
-    </center>
+
 
 
   <script>
@@ -87,7 +99,7 @@
 },
         markerLabelStyle: {
           initial: {
-          fill: '#e67e00'
+          fill: 'black'
           }
         },
 

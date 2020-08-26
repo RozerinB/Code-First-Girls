@@ -41,7 +41,21 @@
   .navbar a:hover {
     background-color:#FAF7F2;
   }
-
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 28px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
   img {
 	max-width: 100%;
 	height: auto;   

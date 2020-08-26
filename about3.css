@@ -1,4 +1,52 @@
 
+.header {
+	width: 900px;
+	max-width: 100%;
+	padding: 0px;
+    margin: 0 auto;
+}
+
+.main-header .header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+}
+
+.navbar {
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color:#FAF7F2;
+  }
+
+  img {
+	max-width: 100%;
+	height: auto;   
+    }
+
 .team{
     margin: 75px 0px; 
 }
